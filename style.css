@@ -114,7 +114,7 @@ h1, h2, h3 {
     color: var(--text-muted);
 }
 
-.label-flex span {
+.label-flex > span:last-child {
     color: var(--text-main);
     font-weight: 600;
     font-size: 1rem;
